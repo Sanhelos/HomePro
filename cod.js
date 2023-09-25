@@ -44,7 +44,7 @@ const swiper = new Swiper('.rewies__slider', {
     slidesPerView: 1,
     spaceBetween: 0,
     speed: 800,
-
+simulateTouch: false,
   
     pagination: {
       el: '.swiper-pagination',
