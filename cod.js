@@ -367,9 +367,7 @@ window.addEventListener('scroll', animOnScroll);
 
 			if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) { 
 				animItem.classList.add('_active-anim');
-			} else {
-				animItem.classList.remove('_active-anim');
-			}
+			} 
 
 			animItemPoint = window.innerHeight - animItemHeight / animStart;
 			if (animItemHeight > window.innerHeight) {
